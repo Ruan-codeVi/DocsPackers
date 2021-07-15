@@ -1,0 +1,2 @@
+useEffect é para os estado de vida da aplicação
+useState é para salvar os estado da aplicação e distruir
