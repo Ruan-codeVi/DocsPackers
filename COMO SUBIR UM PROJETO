@@ -1,0 +1,33 @@
+Como publicar um projeto- Subir pra internet
+
+1º Ir dentro do projeto, gerar um build de projeto
+comando: npm run build
+
+Com projetos com Roteamento atraves de React router dom por exemplo tem que criar um arquivo _redirects para funcionar
+
+*Dentro da pasta public, criar um arquivo _redirects e digitar essa linha /* /index.html 200, só salvar 
+
+*Gerar novamento o build com o comando npm run build
+
+
+Subindo o build para produção
+
+1º Dentro do projeto, baixar a cli do netlify
+comando: npm install -g netlify-cli
+
+2º Digitar o comando para subir o deploy para netlify
+comando: netlify deploy
+
+* ELe vai perguntar se quer fazer deplou em um projeto existente ou criar e configurar um novo projeto
+só usar a certinha do teclado para escolher
+*Depois vai perguntar o time
+*Depois ele pede um nome do projeto
+*Depois perguntar qual é dirotorio que vai ser publicado só digitar 
+comando: ./build
+
+*Por ultimo é so digitar o comando para fazer o deploy em modo de produção só digitar
+comando: netflify deploy --prod
+
+Pronto!
+
+Ele mostra a url ou é só logar na conta do netlify para ver o link 
